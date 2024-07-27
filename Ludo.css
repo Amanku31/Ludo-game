@@ -1,0 +1,78 @@
+.board{
+    margin: 10px auto;
+    border: 2px solid #000;
+    width: fit-content;
+}
+.row{
+    display: flex;
+}
+.red{    
+background-color: red;
+}
+.green{    
+background-color: green;
+}
+.blue{    
+background-color: blue;
+}
+.yellow{  
+    background-color: yellow;  
+
+}
+.red-box{
+    background-color: #FF0000;
+    width: 250px;
+    height: 252px;
+    /* margin: 20% auto; */
+    border: 1px solid red;
+}
+.white-box{
+    height: 150px;
+    width: 150px;
+    background: white;
+    border: 1px solid white;
+    margin: 20% auto;
+}
+.white-box .circle{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin: 16px;
+    border: 1px solid black;
+}
+.cell{
+    width: 40px;
+    height: 41px;
+    border: 1px solid black;
+}
+.green-box{
+    background-color: green;
+    width: 250px;
+    height: 252px;
+    /* margin: 20% auto; */
+    border: 1px solid green;
+}
+.yellow-box{
+    background-color: yellow;
+    width: 250px;
+    height: 252px;
+    /* margin: 20% auto; */
+    border: 1px solid yellow;
+}
+.blue-box{
+    background-color: blue;
+    width: 250px;
+    height: 252px;
+    /* margin: 20% auto; */
+    border: 1px solid blue;
+}
+.destination{
+    border-left: 63px solid #FF0000;
+    border-right: 63px solid #FFCC00;
+    border-top: 63px solid #009900;
+    border-bottom: 63px solid #66CCff;
+}
+.icon{
+    padding: 19px  3px;
+}
