@@ -1,7 +1,9 @@
+
 .board{
     margin: 10px auto;
     border: 2px solid #000;
     width: fit-content;
+  
 }
 .row{
     display: flex;
@@ -75,4 +77,49 @@ background-color: blue;
 }
 .icon{
     padding: 19px  3px;
+}
+.btn{
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.dice-btn{
+    background-color: #009900;
+    color: white;
+
+}
+.row1{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    position: relative;
+    bottom: 300px;
+}
+.player-pieces{
+    width: 3%;
+    height: 3%;
+    border: 2px solid;
+    border-radius: 10px;
+    position: absolute;
+
+}
+[player-id="P1"].player-pieces{
+    background-color: #009900;
+}
+.player-pieces.highlight{
+    cursor: pointer;
+    border: 2px dashed;
+    /* animation: spin 1s infinite linear; */
+}
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg) scale(1.4);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
